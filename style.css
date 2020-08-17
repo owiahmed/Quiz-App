@@ -1,0 +1,40 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://www.leadquizzes.com/wp-content/uploads/2019/02/New-blog-graphic.jpg);
+}
+
+.quiz{
+    display: grid;
+    width: 800px;
+    height: 600px;
+    grid-template-rows: 60px auto;
+}
+
+.header{
+    background-color: coral;
+    display: flex;
+    justify-content: center;
+}
+
+.body{
+    background-color: brown;
+    padding: 50px;
+}
+.option{
+    list-style-type: none;
+    background-color: white;
+    width: 50%;
+    margin-bottom: 15px;
+    padding: 15px 20px;
+
+}
+.btn{
+    color:wheat;
+    background-color:royalblue;
+    height: 50px;
+    width: 100px;
+}
